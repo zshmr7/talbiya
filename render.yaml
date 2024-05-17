@@ -1,12 +1,1 @@
-services:
-  - type: web
-    name: kahootclone
-    env: node
-    plan: free
-    buildCommand: 'npm install'
-    startCommand: 'node server/server.js'
-    envVars:
-      - key: MONGODB_URI
-        value: mongodb://localhost:27017/kahootclone
-      - key: PORT
-        value: 3000
+
